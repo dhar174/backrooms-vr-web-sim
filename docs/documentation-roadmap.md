@@ -23,12 +23,12 @@ The current process is:
 |---:|---|---|---|
 | 01 | Project Brief | Defines the identity, direction, MVP, risks, and planning sequence. | Drafted |
 | 02 | Problem Statement | Defines the player/product/development problem and why the project should exist. | Pending |
-| 03 | Lore Alignment Spec | Defines canon strategy, source tiers, schemas, and procedural lore constraints. | Pending |
-| 04 | Vision Document | Defines the long-term emotional, product, and simulation vision. | Pending |
-| 05 | Product Requirements Document | Defines product requirements, scope, non-goals, and acceptance criteria. | Pending |
-| 06 | Game Design Document | Defines gameplay mechanics, player systems, objectives, progression, and interaction. | Pending |
-| 07 | Procedural Generation Design Spec | Defines layout generation, seeds, validation, chunks, anomalies, and replayability. | Pending |
-| 08 | Technical Feasibility Notes | Evaluates engines, WebXR support, performance risks, and browser constraints. | Pending |
+| 03 | Lore Alignment Spec | Defines canon strategy, source tiers, schemas, and procedural lore constraints. | Drafted |
+| 04 | Vision Document | Defines the long-term emotional, product, and simulation vision. | Drafted |
+| 05 | Product Requirements Document | Defines product requirements, scope, non-goals, and acceptance criteria. | Drafted |
+| 06 | Game Design Document | Defines gameplay mechanics, player systems, objectives, progression, and interaction. | Drafted |
+| 07 | Procedural Generation Design Spec | Defines layout generation, seeds, validation, chunks, anomalies, and replayability. | Drafted |
+| 08 | Technical Feasibility Notes | Evaluates engines, WebXR support, performance risks, and browser constraints. | Drafted |
 | 09 | System Architecture Spec | Defines modules, data flow, runtime systems, repo structure, and boundaries. | Pending |
 | 10 | ADRs | Captures major technical decisions and alternatives. | Pending |
 | 11 | Implementation Plan | Breaks the build into ordered engineering phases. | Pending |
