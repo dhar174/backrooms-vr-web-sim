@@ -1,0 +1,26 @@
+{
+  "name": "backrooms-comparison-baseline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.12.1",
+  "engines": {
+    "node": ">=24.13.0 <25",
+    "npm": "11.12.1"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.shared.json && tsc -p tsconfig.json",
+    "lint": "eslint spikes/shared tests/spikes/shared vitest.config.ts eslint.config.mjs --max-warnings 0",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm run lint && npm test"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "24.13.6",
+    "eslint": "10.11.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.0",
+    "vite": "8.3.1",
+    "vitest": "5.0.2"
+  }
+}
