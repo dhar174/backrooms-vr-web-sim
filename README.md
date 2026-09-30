@@ -58,6 +58,18 @@ Future architecture should support:
 - WebXR controls and comfort modes
 - A future lore linter for validating generated content
 
+## Engine comparison baseline
+
+BACVR-27 defines the [frozen Level 0 runtime comparison](spikes/shared/README.md)
+for Babylon.js, raw Three.js, and Meta IWSDK. All three lanes must start from
+the same merged baseline SHA published on their Linear issues and consume the
+shared scenario, parameters, metrics, and report template. This is a controlled
+integration fixture, not the final generator or runtime architecture.
+
+The root npm package provides shared verification only: `npm ci` then
+`npm run check`. Candidate packages and lockfiles belong in their own spike
+directories; no runtime is selected or implemented by this baseline.
+
 ## License
 
 License is not finalized yet. Until a license is selected, assume all rights are reserved.

@@ -835,6 +835,17 @@ Start with a minimal working app and avoid overbuilding infrastructure before th
 
 ## 27\. Required validation spikes
 
+### Frozen three-way comparison baseline (BACVR-27)
+
+The [shared runtime fixture](../spikes/shared/README.md) extends the earlier
+two-engine framing below to Babylon.js, raw Three.js, and Meta IWSDK. All three
+candidate lanes must branch from the same published baseline merge SHA and
+consume benchmark `level0-runtime-comparison` version `1.0.0`, its fixed
+dimensions/controls/events, measurement protocol, metrics, and findings
+template. Any deviation must be recorded; shared changes require coordinated
+versioning. BACVR-12 evaluates the resulting evidence without assuming a winner.
+This fixture is not a full generator or final architecture.
+
 Before architecture is finalized, the project should run several technical spikes.
 
 ### Spike 1 — Engine comparison

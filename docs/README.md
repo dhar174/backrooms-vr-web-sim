@@ -34,6 +34,15 @@ The core direction is:
 
 > A lore-aligned, procedurally generated liminal horror simulation that uses WebXR/browser technology to make the Backrooms feel infinite, unstable, and replayable.
 
+## Runtime comparison fixture
+
+[BACVR-27 shared baseline](../spikes/shared/README.md) freezes the three-way
+Babylon.js/raw Three.js/Meta IWSDK experiment before implementation. Use the
+published merge SHA and common findings template for each lane; BACVR-12 owns
+the later comparison decision. This fixture does not replace the numbered
+design documents. The architecture draft is currently hosted in
+[BACVR-19](https://linear.app/dna-pest-control-router/issue/BACVR-19).
+
 ## Linear reference
 
 Linear team: **Backrooms VR Web Sim**  
